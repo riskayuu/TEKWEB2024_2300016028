@@ -1,0 +1,69 @@
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 5px;
+    border: 5px solid #007bff;
+}
+
+h1 {
+    color: rgb(63, 73, 119);
+    background-color: rgba(255, 254, 254, 0.936);
+    padding: 20px;
+    text-align: left;
+    display: flex; /* Menambahkan agar align-items bisa bekerja */
+    align-items: center; /* Ini sebenarnya tidak berfungsi di h1, tapi tetap ditulis */
+}
+
+p {
+    color: rgb(0, 0, 2);
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 70px 70px 70px;
+    border: 5px solid rgb(2, 1, 1);
+    background: linear-gradient(to right, #007bff, #00c6ff); /* Perbaikan untuk linear gradient */
+    background-image: url('background.jpg');
+    background-size: cover;  
+    background-position: center;  
+    display: flex; /* Ditambahkan untuk properti flex-direction */
+    flex-direction: column;
+}
+
+.container {
+    background-color: white;
+    width: 500px;
+    padding: 20px;
+    margin: 20px auto; /* Agar container berada di tengah */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px black;
+}
+
+ul {
+    list-style: none;  
+    padding: 0;         
+}
+
+ul li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 5px solid #007bff;
+}
+
+nav {
+    /* Menambahkan properti lengkap jika diperlukan */
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
